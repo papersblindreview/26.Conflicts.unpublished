@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.o[0-9]*
+*.e[0-9]*
+
+# data and outputs
+data/*
+!data/README.md
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep

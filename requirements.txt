@@ -1,0 +1,24 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn>=1.3
+xgboost>=2.0
+shap
+lightgbm
+catboost
+geopandas
+shapely>=2.0
+pyogrio
+rasterio
+rioxarray
+xarray
+netCDF4
+h5netcdf
+cfgrib
+cdsapi
+joblib
+requests
+
+# optional: GPU random forest / logistic regression in model_alternates.py (RAPIDS; falls back to scikit-learn)
+# cuml
