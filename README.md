@@ -36,7 +36,7 @@ for m in rf lgbm catboost et logreg; do for t in 1 2; do \
 
 # 4. bootstrap: odd tasks = Conflict, even = Unrest; tasks 1..8 with --n_rep 10 give 40 replicates per outcome
 for t in $(seq 1 8); do JOB_NAME=boot_shap_world_1 SGE_TASK_ID=$t \
-  python scripts/bootstrap_shap.py --n_rep 10 --n_expl 300000 --rounds_conflict 1120 --rounds_unrest 505; done
+  python scripts/bootstrap_shap.py --n_rep 10 --n_expl 300000 --rounds_conflict 1500 --rounds_unrest 1500; done
 
 # 5. figures (--figs fitted or --figs boot draws only one group)
 python scripts/plot.py --boot results/boot --interval iqr
