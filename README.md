@@ -64,7 +64,3 @@ figures/         generated figures (not tracked)
 - **Split**: train 2018-2022, evaluate 2023-2024.
 - **Bootstrap**: blocks of 5°×5° are drawn with replacement; each training row is weighted by how often its block was drawn. Medians and 25th-75th percentile intervals are taken across the 40 replicates.
 - **SHAP**: native TreeSHAP (`pred_contribs`) on a fixed explanation sample, log-odds scale.
-
-## License and citation
-
-To be added.
